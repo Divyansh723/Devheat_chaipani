@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="/script.js"></script>
+</head>
+<body style="margin: 0;">
+    <div class = 'container'>
+        <form action="" class="form" id="login">
+            <h1 class="form-title" >Login</h1>
+            
+            <div class="image"><img src="jjj.jpg" alt="try again" class="hello22" height="60px" width="60px" style="margin-top: 50rem;"></div>
+
+            <div class="login-form-input">
+                <legend class="form-text1">Username:*</legend>
+                <input type="text" class="form-input" autofocus placeholder="username" required >
+            </div>
+
+            <div class="login-form-input">
+                <legend class="form-text1">Password:*</legend>
+                <input type="password" class="form-input" autofocus placeholder="password" required >
+            </div>
+
+            <!-- <div class="center">
+                <h1 id="captchaHeading">
+                    Captcha Validator Using HTML, CSS and JavaScript
+                </h1>
+                <div id="captchaBackground">
+                    <canvas id="captcha">captcha text</canvas>
+                    <input id="textBox" type="text" name="text">
+                    <div id="buttons">
+                        <input id="submitButton" type="submit">
+                        <button id="refreshButton" type="submit">Refresh</button>
+                    </div>
+                    <span id="output"></span>
+                </div>
+            </div> -->
+
+            <div class="login-form-input">
+                <canvas id="captcha">captcha text</canvas>
+                    <input id="textBox" type="text" name="text">
+                    <div id="buttons">
+                        <input id="submitButton" type="submit">
+                        <button id="refreshButton" type="submit">Refresh</button>
+                    </div>
+                    <span id="output"></span>
+            </div>
+
+            <button class="form-button" type="submit">Login</button>
+            
+            <p class="form-text">
+                <a href="forgot.html" class="form-link">Forgot your password?</a>
+            </p>
+
+            <p class="form-text">
+                <a class="form-link" href="signup.html" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
