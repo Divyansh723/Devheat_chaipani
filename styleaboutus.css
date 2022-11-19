@@ -1,0 +1,73 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(40, 40, 40);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #47b34a;
+  color: black;
+  border-radius: 1rem;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF7417;
+  color: white;
+}
+
+  
+.left {
+    float: left;
+  }
+  
+  .right
+  {
+    float : right;
+  }
+
+  .center {
+    padding: 70px 0;
+    border: 3px ;
+    text-align: center;
+  }
+  
+
+.quote{
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.content{
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.donation{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#he{
+  /* filter: brightness(50%); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+@keyframes linearGradient{
+  100%{
+      background-size: (100%,100%);
+  }
+}
