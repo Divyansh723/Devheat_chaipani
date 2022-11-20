@@ -1,0 +1,13 @@
+# Devheat_chaipani
+TEAM NAME : ChaiPani
+THEME : Minimize the distance
+TEAM MEMBERS : *Divyansh Aggarwal , Ayush Dahiya , Abhilasha Supe , Aalekh Bukhariya
+
+
+Tribute is an online funding website created with the aim of providing financial support to the families left behind by martyred soldiers. So many common people want to help such families of martyred soldiers, but don't know how to reach them. We make sure that those who want to help, can do so securely and quite easily, so we created this. The funds go directly to the bank accounts of an authenticated family member, and we make sure to provide a certificate to each donater!
+
+Scope of project -
+We wish to expand this project to include those who contributed but who weren't on field , for eg the army doctors.
+Users may search for soldiers based on the war they were sacrificed in .
+
+Each soldier is given a bio page, which also has a form for payment. We wanted to add a feature which generates a certificate of donation after the user submits the form .
