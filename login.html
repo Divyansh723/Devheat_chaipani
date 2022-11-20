@@ -9,11 +9,15 @@
     <script src="/script.js"></script>
 </head>
 <body style="margin: 0;">
-    <div class = 'container'>
+    
+    <video autoplay loop muted id="he">
+            <source src="./aa.mp4" type="video/mp4">
+    </video>
+    <div class = 'container' style="z-index: 3;margin-top: -1rem;">
         <form action="" class="form" id="login">
             <h1 class="form-title" >Login</h1>
             
-            <div class="image"><img src="jjj.jpg" alt="try again" class="hello22" height="60px" width="60px" style="margin-top: 50rem;"></div>
+            <div class="image"><img src="jjj.jpg" alt="try again" class="hello22" height="60px" width="60px"></div>
 
             <div class="login-form-input">
                 <legend class="form-text1">Username:*</legend>
@@ -40,7 +44,7 @@
                 </div>
             </div> -->
 
-            <div class="login-form-input">
+            <!-- <div class="login-form-input">
                 <canvas id="captcha">captcha text</canvas>
                     <input id="textBox" type="text" name="text">
                     <div id="buttons">
@@ -48,7 +52,7 @@
                         <button id="refreshButton" type="submit">Refresh</button>
                     </div>
                     <span id="output"></span>
-            </div>
+            </div> -->
 
             <button class="form-button" type="submit">Login</button>
             
@@ -58,6 +62,9 @@
 
             <p class="form-text">
                 <a class="form-link" href="signup.html" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+            <p class="form-text">
+                <a href="home.html" class="form-link">Wants To Go To Home Page? Click Here</a>
             </p>
         </form>
     </div>
