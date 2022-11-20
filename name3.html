@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hhh.css">
+</head>
+
+<body>
+    <header class="headertop">
+        <div>
+            <div class="topnav">
+                <div class="left1" style="background-color: rgb(40, 40, 40);">
+                    <a href="#home">Back</a>
+                    <a class="active" href="#news">Profile</a>
+                    <a href="#about">About us</a>
+                </div>
+                <div class="right1">
+                    <a href="login.html">Login </a>
+                    <a href="signup.html">Sign-up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <video autoplay loop muted id="he" style="z-index: -5;">
+        <source src="./aa.mp4" type="video/mp4">
+    </video>
+
+    <div class="row" style="margin: 2rem;">
+        <div class="column" style="width: 50%;">
+            <div class="card">
+                <div class="container" >
+                    <div class="image">
+                        <img src="aswin.jpeg" alt="try again" class="hello22" height="150px" width="150px"
+                            style="margin-top: 2rem; margin-bottom: -2rem" />
+                    </div>
+                    <h2 style="text-align: center">Craftsman Aswin KV</h2>
+                    <p style="text-align: center">
+                    <p class="card-text">
+                        During 2022, Major Vikas Bhambhu was serving with the 252 Army Aviation Squadron deployed in the
+                        North-East. The squadron was operating Advanced Light Helicopter (ALH), which was known to be a
+                        high-performance helicopter designed for operation over a very wide range of weight, center of
+                        gravity and altitude conditions. Out of the four variants—(ALH Mark 1, Mark 2, Mark 3 and
+                        ALH-WSI) available in the Army, Major Vikas Bhambhu's Sqn was operating ALH-WSI (Weapons Systems
+                        Integrated) versions having powerful engine, called Shakti, co-developed by Hindustan
+                        Aeronautics Limited (HAL) and Safran of France. The Advanced Light Helicopter (ALH-WSI) was
+                        versatile, multi-role, multi-purpose, highly maneuverable, and rugged in construction. On 21st
+                        Oct 2022, Major Vikas Bhambhu and Major Mustafa Bohara as pilots along with 3 other crew members
+                        were tasked for an air mission.
+                    <p>
+                        Major Vikas Bhambhu was a valiant soldier and a competent pilot, who at the age of 33 years laid
+                        down his life in the service of the nation.</p>
+                    <p>Major Vikas Bhambhu is survived by his parents, wife Smt Shreya Choudhary, and daughter Khwaish.
+                    </p>
+                    <p style="text-align: center">aswin@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card" style="background-color: white;">
+                <form action="" class="form" id="login">
+                    <h2 class="form-title" style="text-align: center;">Pay tribute to Craftsman Aswin KV</h2>
+                    <div class="container" style="text-align: center; background-color: white">
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Full-name*</legend>
+                            <input type="text" class="form-input" id="name" autofocus placeholder="xyz" required>
+                        </div>
+            
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">email:*</legend>
+                            <input type="email" class="form-input" id="mail" autofocus placeholder="abc@gmail.com" required>
+                        </div>
+                        
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Qr-code:-</legend>
+                            <img src="./qr.jpeg" alt="try again" height="100px" width="100px">
+                        </div>
+    
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Upload proof of payment:*</legend>
+                            <input type="file" style="padding: 10px; margin: 10px;"class="form-input"id="file-input" autofocus placeholder="choose file" required>
+                        </div>
+            
+                        <button onclick="done()" class="form-button" style="margin : 10px; color: rgb(9, 9, 9); font-size: 15px; padding: 5px;" type="submit">Submit</button>
+            
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            const name = document.querySelector("#name");
+            const email = document.querySelector("#mail");
+            const file = document.querySelector("#file-input");
+            function done(){
+                if(name.innerHTML && email.innerHTML && file.innerHTML){
+                    alert("Thank you for your Contribution");
+                }
+            }
+            
+        </script>
+</body>
+
+</html>

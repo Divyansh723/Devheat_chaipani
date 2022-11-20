@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hhh.css">
+</head>
+
+<body>
+    <header class="headertop">
+        <div>
+            <div class="topnav">
+                <div class="left1" style="background-color: rgb(40, 40, 40);">
+                    <a href="#home">Back</a>
+                    <a class="active" href="#news">Profile</a>
+                    <a href="#about">About us</a>
+                </div>
+                <div class="right1">
+                    <a href="login.html">Login </a>
+                    <a href="signup.html">Sign-up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <video autoplay loop muted id="he" style="z-index: -5;">
+        <source src="./aa.mp4" type="video/mp4">
+    </video>
+
+    <div class="row" style="margin: 2rem;">
+        <div class="column" style="width: 50%;">
+            <div class="card">
+                <div class="container" >
+                    <div class="image">
+                        <img src="anand.jpeg" alt="try again" class="hello22" height="150px" width="150px"
+                            style="margin-top: 2rem; margin-bottom: -2rem" />
+                    </div>
+                    <h2 style="text-align: center">Captain Anand Kumar</h2>
+                    <p style="text-align: center">
+                    <p class="card-text">During 2022, Capt Anand Kumar’s unit 15 Raj Rif was deployed in Mendhar sector
+                        of Poonch district in Jammu and Kashmir. The unit was manning the forward posts along the LOC in
+                        Poonch district. As the area of his unit’s operation was very volatile and prone to infiltration
+                        by militants, the unit had to maintain a strict vigil at all times and deployed armed patrols
+                        with regular frequency. The landmines along the patrol routes posed a serious danger to the
+                        troops and the Bomb Disposal Squad of the unit was often called upon to sanitize the routes. On
+                        17 July 2022, Capt Anand Kumar was tasked to lead one area domination patrol in the unit's AOR.
+
+                        As Capt Anand Kumar and his comrades were traversing through the challenging terrain as per the
+                        planned patrol route, there was a massive mine blast. The blast had a devastating effect,
+                        injuring Capt Anand Kumar, Nb Sub Bhagwan Singh and many of their comrades. The injured soldiers
+                        were immediately air lifted to Military Hospital Udhampur for medical treatment. However Capt
+                        Anand Kumar and his Junior Commissioned Officer, Nb Sub Bhagwan Singh later succumbed to their
+                        injuries and were martyred. Capt Anand Kumar was slated to get married soon but he was more
+                        devoted to the higher cause of serving the motherland and laid down his life in the service of
+                        the nation at the age of 26 years.
+                    </p>
+                    <p style="text-align: center">capanand@eg.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card" style="background-color: white;">
+                <form action="" class="form" id="login">
+                    <h2 class="form-title" style="text-align: center;">Pay tribute to Captain Anand Kumar</h2>
+                    <div class="container" style="text-align: center; background-color: white">
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Full-name*</legend>
+                            <input type="text" class="form-input" id="name" autofocus placeholder="xyz" required>
+                        </div>
+            
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">email:*</legend>
+                            <input type="email" class="form-input" id="mail" autofocus placeholder="abc@gmail.com" required>
+                        </div>
+                        
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Qr-code:-</legend>
+                            <img src="./qr.jpeg" alt="try again" height="100px" width="100px">
+                        </div>
+    
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Upload proof of payment:*</legend>
+                            <input type="file" style="padding: 10px; margin: 10px;"class="form-input"id="file-input" autofocus placeholder="choose file" required>
+                        </div>
+            
+                        <button onclick="done()" class="form-button" style="margin : 10px; color: rgb(9, 9, 9); font-size: 15px; padding: 5px;" type="submit">Submit</button>
+            
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            const name = document.querySelector("#name");
+            const email = document.querySelector("#mail");
+            const file = document.querySelector("#file-input");
+            function done(){
+                if(name.innerHTML && email.innerHTML && file.innerHTML){
+                    alert("Thank you for your Contribution");
+                }
+            }
+            
+        </script>
+</body>
+
+</html>

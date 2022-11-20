@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hhh.css">
+</head>
+
+<body>
+    <header class="headertop">
+        <div>
+            <div class="topnav">
+                <div class="left1" style="background-color: rgb(40, 40, 40);">
+                    <a href="#home">Back</a>
+                    <a class="active" href="#news">Profile</a>
+                    <a href="#about">About us</a>
+                </div>
+                <div class="right1">
+                    <a href="login.html">Login </a>
+                    <a href="signup.html">Sign-up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <video autoplay loop muted id="he" style="z-index: -5;">
+        <source src="./aa.mp4" type="video/mp4">
+    </video>
+
+    <div class="row" style="margin: 2rem;">
+        <div class="column" style="width: 50%;">
+            <div class="card">
+                <div class="container">
+                    <div class="image">
+                        <img src="vikas.jpeg" alt="try again" class="hello22" height="150px" width="150px"
+                            style="margin-top: 2rem; margin-bottom: -2rem" />
+                    </div>
+                    <h2 style="text-align: center">Major Vikas Bhambhu</h2>
+                    <p style="text-align: center">
+                    <p>
+                        Craftsman Aswin KV hailed from Kizhakkemuri, a small village on the banks of Thejaswini river,
+                        in Cheruvathur panchayat of Kasaragod district in Kerala. Son of Shri MK Ashokan and Smt KV
+                        Kaushalya, he had two sisters Ashwathy and Anaswara as his siblings. Born in a poor family,
+                        Craftsman Aswin studied using kerosene lamps, but scored well in the Class 10 exam. Continuing
+                        his perseverance, he got the top A+ grade in nine of 10 subjects in his class XII. After his
+                        schooling at Government Fisheries Vocational Higher Secondary School at Cheruvathur, he took up
+                        BSc Physics at Kasaragod Government College. But in the meantime he got selected to join the
+                        army.
+                    <p>
+                        During 2022, Cfn Aswin was serving with the 252 Army Aviation Squadron deployed in the
+                        North-East. The squadron was operating Advanced Light Helicopter (ALH), which was known to be a
+                        high-performance helicopter designed for operation over a very wide range of weight, center of
+                        gravity and altitude conditions. Out of the four variants—(ALH Mark 1, Mark 2, Mark 3 and
+                        ALH-WSI) available in the Army, 252 Army Aviation Squadron was operating ALH-WSI (Weapons
+                        Systems Integrated) versions having powerful engine, called Shakti, co-developed by Hindustan
+                        Aeronautics Limited (HAL) and Safran of France. The Advanced Light Helicopter (ALH-WSI) was
+                        versatile, multi-role, multi-purpose, highly maneuverable, and rugged in construction. On 21st
+                        Oct 2022, Cfn Aswin with Major Vikas Bhambhu and Major Mustafa Bohara as pilots and 2 other crew
+                        members was tasked for an air mission.
+
+
+
+                        Cfn Aswin is survived by his father Shri MK Ashokan, mother Smt KV Kaushalya, and sisters Smt
+                        Ashwathy & Smt Anaswara.</p>
+
+                    </p>
+                    <p style="text-align: center">john@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card" style="background-color: white;">
+                <form action="" class="form" id="login">
+                    <h2 class="form-title" style="text-align: center;">Pay tribute to Major Vikas Bhambhu</h2>
+                    <div class="container" style="text-align: center; background-color: white">
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Full-name*</legend>
+                            <input type="text" class="form-input" id="name" autofocus placeholder="xyz" required>
+                        </div>
+
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">email:*</legend>
+                            <input type="email" class="form-input" id="mail" autofocus placeholder="abc@gmail.com"
+                                required>
+                        </div>
+
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Qr-code:-</legend>
+                            <img src="./qr.jpeg" alt="try again" height="100px" width="100px">
+                        </div>
+
+                        <div class="login-form-input">
+                            <legend class="form-text1" style="padding: 10px;">Upload proof of payment:*</legend>
+                            <input type="file" style="padding: 10px; margin: 10px;" class="form-input" id="file-input"
+                                autofocus placeholder="choose file" required>
+                        </div>
+
+                        <button onclick="done()" class="form-button"
+                            style="margin : 10px; color: rgb(9, 9, 9); font-size: 15px; padding: 5px;"
+                            type="submit">Submit</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            const name = document.querySelector("#name");
+            const email = document.querySelector("#mail");
+            const file = document.querySelector("#file-input");
+            function done() {
+                if (name.innerHTML && email.innerHTML && file.innerHTML) {
+                    alert("Thank you for your Contribution");
+                }
+            }
+
+        </script>
+</body>
+
+</html>
