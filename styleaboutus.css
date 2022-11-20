@@ -71,3 +71,15 @@
       background-size: (100%,100%);
   }
 }
+#form-submit{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+#form-submit:hover{
+  background-color: #47b34be8;
+  box-shadow: inset;  
+}
